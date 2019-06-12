@@ -1,6 +1,6 @@
 export class Pokemon {
 
-    constructor(private image: string, private name: string, private description: string, private pokedexNumber) {
+    constructor(public image: string, public name: string, public description: string, public pokedexNumber) {
 
     }
 

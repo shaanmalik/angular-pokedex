@@ -2,7 +2,7 @@ import { Pokemon } from './pokemon.model';
 
 export class Pokedex {
 
-    constructor(private pokemonList: Pokemon[]) {
+    constructor(public pokemonList: Pokemon[]) {
 
     }
 
