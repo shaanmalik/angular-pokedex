@@ -7,8 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "maliky-build": "ng build --prod --deploy-url=private/bb"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {

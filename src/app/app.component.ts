@@ -10,7 +10,7 @@ import { Pokemon } from './pokemon.model';
 export class AppComponent {
 
   private caterpie: Pokemon = new Pokemon(
-    "./assets/010-caterpie.png",
+    "010-caterpie.png",
     "Caterpie",
     `Caterpie has a voracious appetite.
     It can devour leaves bigger than its body right before your eyes. 
@@ -18,7 +18,7 @@ export class AppComponent {
     10);
     
   private bulbasaur: Pokemon = new Pokemon(
-    "./assets/001-bulbasaur.png",
+    "001-bulbasaur.png",
     "Bulbasaur",
     `Bulbasaur can be seen napping in bright sunlight. 
     There is a seed on its back. 
@@ -26,7 +26,7 @@ export class AppComponent {
     1);
 
   private abra: Pokemon = new Pokemon(
-    "./assets/063-abra.png",
+    "063-abra.png",
     "Abra",
     `Abra sleeps for eighteen hours a day. 
     However, it can sense the presence of foes even while it is sleeping. 
@@ -34,7 +34,7 @@ export class AppComponent {
     63);
 
   private cubone: Pokemon = new Pokemon(
-    "./assets/104-cubone.png",
+    "104-cubone.png",
     "Cubone",
     `Cubone pines for the mother it will never see again. 
     Seeing a likeness of its mother in the full moon, it cries. 

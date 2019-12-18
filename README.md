@@ -1,6 +1,7 @@
 # Pokedex
 
-Note: For building for maliky.net use: `npm run maliky-build`
+Note: For building for maliky.net use: `ng build --prod --deploy-url=private/angular-pokedex/`
+Also change hard-coded path in `pokedex-entry.component.html`
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
