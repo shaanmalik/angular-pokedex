@@ -1,5 +1,19 @@
 # Pokedex
 
+## maliky.net build
+
+- Change hard-coded path in `pokedex-entry.component.html` to `pokedex/assets/{{pokemon.image}}`
+- Set base href in index.html to `<base href="/pokedex">`
+- Use `ng build --prod --deploy-url=pokedex/`
+
+## github-pages build
+
+- Change hard-coded path in `pokedex-entry.component.html` to `assets/{{pokemon.image}}`
+- Set base href in index.html to `<base href="/angular-pokedex">`
+- Use `ng build --prod`
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
 ## Development server
